@@ -1,0 +1,144 @@
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\MeetingReminder.DataAccess.dll.config
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\MeetingReminder.DataAccess.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\MeetingReminder.DataAccess.pdb
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\MeetingReminder.Entities.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.Buffers.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.Collections.Immutable.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.Memory.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\MeetingReminder.Entities.pdb
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.Buffers.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.Collections.Immutable.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.Memory.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\obj\Debug\MeetingReminder.DataAccess.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\obj\Debug\MeetingReminder.DataAccess.csproj.CopyComplete
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\obj\Debug\MeetingReminder.DataAccess.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.DataAccess\obj\Debug\MeetingReminder.DataAccess.pdb
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\MeetingReminder.DataAccess.dll.config
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\MeetingReminder.DataAccess.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\MeetingReminder.DataAccess.pdb
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\MeetingReminder.Entities.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.Buffers.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.Collections.Immutable.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.Memory.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\MeetingReminder.Entities.pdb
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.Buffers.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.Collections.Immutable.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.Memory.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\obj\Debug\MeetingReminder.DataAccess.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\obj\Debug\MeetingReminder.DataAccess.csproj.CopyComplete
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\obj\Debug\MeetingReminder.DataAccess.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.DataAccess\obj\Debug\MeetingReminder.DataAccess.pdb

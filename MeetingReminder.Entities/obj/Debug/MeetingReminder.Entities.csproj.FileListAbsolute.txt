@@ -1,0 +1,10 @@
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.Entities\bin\Debug\MeetingReminder.Entities.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.Entities\bin\Debug\MeetingReminder.Entities.pdb
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.Entities\obj\Debug\MeetingReminder.Entities.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.Entities\obj\Debug\MeetingReminder.Entities.dll
+C:\Users\ahmet\source\repos\Meeting Reminder\MeetingReminder.Entities\obj\Debug\MeetingReminder.Entities.pdb
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Entities\bin\Debug\MeetingReminder.Entities.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Entities\bin\Debug\MeetingReminder.Entities.pdb
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Entities\obj\Debug\MeetingReminder.Entities.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Entities\obj\Debug\MeetingReminder.Entities.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Entities\obj\Debug\MeetingReminder.Entities.pdb
