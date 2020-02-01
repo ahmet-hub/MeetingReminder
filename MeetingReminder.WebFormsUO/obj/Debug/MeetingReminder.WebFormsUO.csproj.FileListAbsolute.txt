@@ -79,3 +79,6 @@ C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.WebFormsUO\bin\Debug
 C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.WebFormsUO\bin\Debug\Microsoft.Extensions.Configuration.xml
 C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.WebFormsUO\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
 C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.WebFormsUO\obj\Debug\MeetingReminder.WebFormsUO.PersonDetails.resources
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.WebFormsUO\bin\Debug\FluentValidation.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.WebFormsUO\bin\Debug\MeetingReminder.Business.dll.config
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.WebFormsUO\bin\Debug\FluentValidation.xml

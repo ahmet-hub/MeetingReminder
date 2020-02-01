@@ -1,10 +1,13 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.AccessControl;
 
 namespace MeetingReminder.Entities
 {
-    public class Meeting:IEntity
+    public class Meeting : IEntity
     {
+    
         public int MeetingID { get; set; }
         public DateTime FirstMeeting { get; set; }
         public DateTime SecondMeeting { get; set; }
@@ -13,7 +16,7 @@ namespace MeetingReminder.Entities
         public DateTime FifthMeeting { get; set; }
         public DateTime LastMeeting { get; set; }
         public int PersonID { get; set; }
-        
+
 
     }
 }

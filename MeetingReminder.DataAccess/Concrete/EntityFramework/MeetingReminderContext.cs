@@ -16,6 +16,7 @@ namespace MeetingReminder.DataAccess.Concrete.EntityFramework
         }
         public DbSet<Person> Persons { get; set; }
         public DbSet<Meeting> Meetings { get; set; }
+        public DbSet<MeetingControl> MeetingControls { get; set; }
 
     }
 }

@@ -5,10 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace MeetingReminder.DataAccess.Abstract
 {
     public interface IMeetingDal:IEntityRepository<Meeting>
     {
+       
 
     }
 }

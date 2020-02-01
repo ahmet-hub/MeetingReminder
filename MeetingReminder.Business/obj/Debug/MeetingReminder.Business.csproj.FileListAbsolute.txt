@@ -136,3 +136,7 @@ C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Business\obj\Debug\M
 C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Business\obj\Debug\MeetingReminder.Business.csproj.CopyComplete
 C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Business\obj\Debug\MeetingReminder.Business.dll
 C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Business\obj\Debug\MeetingReminder.Business.pdb
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Business\bin\Debug\MeetingReminder.Business.dll.config
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Business\bin\Debug\FluentValidation.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Business\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Business\bin\Debug\FluentValidation.xml

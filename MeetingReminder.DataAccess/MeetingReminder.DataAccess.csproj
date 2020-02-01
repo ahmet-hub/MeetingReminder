@@ -135,8 +135,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IEntityRepository.cs" />
+    <Compile Include="Abstract\IMeetingControlDal.cs" />
     <Compile Include="Abstract\IMeetingDal.cs" />
     <Compile Include="Abstract\IPersonDal.cs" />
+    <Compile Include="Concrete\EntityFramework\EfMeetingControlDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfMeetingDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfPersonDal.cs" />
     <Compile Include="Concrete\EntityFramework\MeetingReminderContext.cs" />

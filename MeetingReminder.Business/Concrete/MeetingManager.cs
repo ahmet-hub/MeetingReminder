@@ -7,6 +7,7 @@ using MeetingReminder.Business.Abstract;
 using MeetingReminder.DataAccess.Abstract;
 using MeetingReminder.Entities;
 
+
 namespace MeetingReminder.Business.Concrete
 {
     public class MeetingManager : IMeetingService
@@ -28,11 +29,18 @@ namespace MeetingReminder.Business.Concrete
             _meetingDal.Delete(meeting);
         }
 
-        public List<Meeting> GetAll()
+
+        public Meeting Get(int id)
         {
-            return _meetingDal.GetAll();
+           return _meetingDal.Get(p => p.PersonID == id);
         }
 
+        public List<Meeting> GetAll()
+        {
+           return _meetingDal.GetAll();
+        }
+
+       
         public void Update(Meeting meeting)
         {
            _meetingDal.Update(meeting);

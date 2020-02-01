@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MeetingReminder.Entities.ComplexTypes;
 
 namespace MeetingReminder.Business.Abstract
 {
@@ -14,6 +15,7 @@ namespace MeetingReminder.Business.Abstract
         void Delete(Person person);
         void Update(Person person);
 
+        List<PersonDetail> GetPersonDetails();
 
     }
 }

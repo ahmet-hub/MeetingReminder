@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MeetingReminder.Business.Abstract;
+using MeetingReminder.Business.Utilities;
+using MeetingReminder.Business.ValidationRules.FluentValidation;
 using MeetingReminder.DataAccess.Abstract;
 using MeetingReminder.Entities;
+using MeetingReminder.Entities.ComplexTypes;
 
 namespace MeetingReminder.Business.Concrete
 {
@@ -20,6 +23,7 @@ namespace MeetingReminder.Business.Concrete
 
         public void Add(Person person)
         {
+            ValidationTool.Validate(new PersonValidator(), person);
             _personDal.Add(person);
         }
 
@@ -33,8 +37,14 @@ namespace MeetingReminder.Business.Concrete
            return _personDal.GetAll();
         }
 
+        public List<PersonDetail> GetPersonDetails()
+        {
+            return _personDal.GetPersonDetails();
+        }
+
         public void Update(Person person)
         {
+            ValidationTool.Validate(new PersonValidator(), person);
             _personDal.Update(person);
         }
     }
