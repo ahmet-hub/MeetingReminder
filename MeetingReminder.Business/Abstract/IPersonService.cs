@@ -14,7 +14,6 @@ namespace MeetingReminder.Business.Abstract
         void Add(Person person);
         void Delete(Person person);
         void Update(Person person);
-
         List<PersonDetail> GetPersonDetails();
 
     }

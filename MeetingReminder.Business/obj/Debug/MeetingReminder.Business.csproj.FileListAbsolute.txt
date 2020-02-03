@@ -140,3 +140,5 @@ C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Business\bin\Debug\M
 C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Business\bin\Debug\FluentValidation.dll
 C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Business\bin\Debug\System.ComponentModel.Annotations.dll
 C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Business\bin\Debug\FluentValidation.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Business\bin\Debug\Ninject.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.Business\bin\Debug\Ninject.xml

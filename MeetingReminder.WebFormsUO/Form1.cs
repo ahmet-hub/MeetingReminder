@@ -3,6 +3,7 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 using MeetingReminder.Business.Concrete;
+using MeetingReminder.Business.Utilities;
 using MeetingReminder.DataAccess.Concrete.EntityFramework;
 using MeetingReminder.Entities;
 using Microsoft.Office.Interop.Excel;
@@ -13,11 +14,9 @@ namespace MeetingReminder.WebFormsUO
     public partial class Form1 : Form
     {
         private readonly PersonDetails _personDetails = new PersonDetails();
-
-        private readonly IPersonService _personService = new PersonManager(new EfPersonDal());
-
-        private readonly IMeetingService _meetingService = new MeetingManager(new EfMeetingDal());
-        private readonly IMeetingControlService _meetingControlService = new MeetingControlManager(new EfMeetingControlDal());
+        private readonly IPersonService _personService = NinjectInstanceFactory.GetInstance<IPersonService>();
+        private readonly IMeetingService _meetingService = NinjectInstanceFactory.GetInstance<IMeetingService>();
+        private readonly IMeetingControlService _meetingControlService = NinjectInstanceFactory.GetInstance<IMeetingControlService>();
 
         private Person _person;
         private Meeting _meeting;
@@ -39,33 +38,42 @@ namespace MeetingReminder.WebFormsUO
             dgwPerson.DataSource = _personService.GetAll();
             // ReSharper disable once PossibleNullReferenceException
             this.dgwPerson.Columns["PersonID"].Visible = false;
+            this.dgwPerson.Columns[1].HeaderText = "ADI";
+            this.dgwPerson.Columns[2].HeaderText = "SOYADI";
+            this.dgwPerson.Columns[3].HeaderText = "İLK BULUŞMA ";
+            this.dgwPerson.Columns[4].HeaderText = "SON BULUŞMA";
+            this.dgwPerson.Columns[5].HeaderText = "PERİYOT";
+            this.dgwPerson.Columns[6].HeaderText = "AÇIKLAMA";
             this.dgwPerson.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
 
         }
 
         public void LoadTodayMeeting()
         {
             dgwTodayMeeting.DataSource = _personService.GetPersonDetails();
+            this.dgwTodayMeeting.Columns[0].HeaderText = "ADI";
+            this.dgwTodayMeeting.Columns[1].HeaderText = "SOYADI";
             this.dgwTodayMeeting.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
         }
         public Person AddPerson()
         {
-            
-                Person addPerson = new Person
-                {
-                    Name = txtName.Text,
-                    LastName = txtLastName.Text,
-                    StartTime = Convert.ToDateTime(dtpStartTime.Text),
-                    FinishTime = Convert.ToDateTime(dtpFinishTime.Text),
-                    Explanation = txtExplanation.Text,
-                    Period = Convert.ToInt32(cbxPeriod.Text)
-                };
-                _personService.Add(addPerson);
-                LoadPerson();
-                return addPerson;
-            
-            
+
+            Person addPerson = new Person
+            {
+                Name = txtName.Text,
+                LastName = txtLastName.Text,
+                StartTime = Convert.ToDateTime(dtpStartTime.Text),
+                FinishTime = Convert.ToDateTime(dtpFinishTime.Text),
+                Explanation = txtExplanation.Text,
+                Period = Convert.ToInt32(cbxPeriod.Text)
+            };
+            _personService.Add(addPerson);
+            LoadPerson();
+            return addPerson;
+
+
         }
 
         private Person UpdatePerson()
@@ -112,51 +120,51 @@ namespace MeetingReminder.WebFormsUO
 
         }
 
-        public int CalculateDay(DateTime startTime, DateTime finishTime,int period)
+        public int CalculateDay(DateTime startTime, DateTime finishTime, int period)
         {
-            int result =  Convert.ToInt32((finishTime - startTime).TotalDays)/period;
+            int result = Convert.ToInt32((finishTime - startTime).TotalDays) / period;
             return result;
         }
         public Meeting AddMeeting()
         {
             int nextMeeting = CalculateDay(_person.StartTime, _person.FinishTime, _person.Period);
 
-                Meeting addmeeting = new Meeting
-                {
-                    FirstMeeting = _person.StartTime,
-                    SecondMeeting = _person.StartTime.AddDays(nextMeeting),
-                    ThirdMeeting = _person.StartTime.AddDays(nextMeeting * 2),
-                    FourthMeeting = _person.StartTime.AddDays(nextMeeting * 3),
-                    FifthMeeting = _person.StartTime.AddDays(nextMeeting * 4),
-                    LastMeeting = _person.FinishTime,
-                    PersonID = _person.PersonID,
-                };
-                _meetingService.Add(addmeeting);
+            Meeting addmeeting = new Meeting
+            {
+                FirstMeeting = _person.StartTime,
+                SecondMeeting = _person.StartTime.AddDays(nextMeeting),
+                ThirdMeeting = _person.StartTime.AddDays(nextMeeting * 2),
+                FourthMeeting = _person.StartTime.AddDays(nextMeeting * 3),
+                FifthMeeting = _person.StartTime.AddDays(nextMeeting * 4),
+                LastMeeting = _person.FinishTime,
+                PersonID = _person.PersonID,
+            };
+            _meetingService.Add(addmeeting);
 
-                // UpdateMeeting();
-                return addmeeting;
-            
-           
+            // UpdateMeeting();
+            return addmeeting;
+
+
 
         }
         public void AddMeetingControl()
         {
-           
-                MeetingControl addMeetingControl = new MeetingControl
-                {
-                    MeetingControlID = _meeting.MeetingID,
-                    FirstMeeting = "GELMEDI",
-                    SecondMeeting = "GELMEDI",
-                    ThirdMeeting = "GELMEDI",
-                    FourthMeeting = "GELMEDI",
-                    FifthMeeting = "GELMEDI",
-                    LastMeeting = "GELMEDI",
-                };
-                _meetingControlService.Add(addMeetingControl);
-            
-         
 
-            
+            MeetingControl addMeetingControl = new MeetingControl
+            {
+                MeetingControlID = _meeting.MeetingID,
+                FirstMeeting = "GELMEDI",
+                SecondMeeting = "GELMEDI",
+                ThirdMeeting = "GELMEDI",
+                FourthMeeting = "GELMEDI",
+                FifthMeeting = "GELMEDI",
+                LastMeeting = "GELMEDI",
+            };
+            _meetingControlService.Add(addMeetingControl);
+
+
+
+
         }
 
         public void UpdateMeeting()
@@ -322,7 +330,7 @@ namespace MeetingReminder.WebFormsUO
             {
                 MessageBox.Show(exception.Message);
             }
-           
+
         }
 
         private void dgwPerson_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -339,7 +347,7 @@ namespace MeetingReminder.WebFormsUO
             {
                 MessageBox.Show(exception.Message);
             }
-           
+
         }
 
         private void dgwTodayMeeting_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -358,7 +366,7 @@ namespace MeetingReminder.WebFormsUO
             var startCol = 1;
             var startRow = 1;
             sheet1.Cells.Rows.ColumnWidth = 15;
-            string[] header = {"ADI", "SOYADI"};
+            string[] header = { "ADI", "SOYADI" };
             for (int j = 0; j < dgwTodayMeeting.Columns.Count; j++)
             {
                 Range myRange = (Range)sheet1.Cells[startRow, startCol + j];
@@ -390,7 +398,7 @@ namespace MeetingReminder.WebFormsUO
             {
                 MessageBox.Show(exception.Message);
             }
-           
+
         }
 
         private void btnUpdated_Click(object sender, EventArgs e)
@@ -405,7 +413,7 @@ namespace MeetingReminder.WebFormsUO
             {
                 MessageBox.Show(exception.Message);
             }
-           
+
 
         }
         private void btnAdded_Click(object sender, EventArgs e)
@@ -421,7 +429,7 @@ namespace MeetingReminder.WebFormsUO
             {
                 MessageBox.Show(exception.Message);
             }
-           
+
         }
 
         private void dgwTodayMeeting_CellClick(object sender, DataGridViewCellEventArgs e)

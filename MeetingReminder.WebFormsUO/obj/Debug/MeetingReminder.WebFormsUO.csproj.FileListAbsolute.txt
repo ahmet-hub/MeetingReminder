@@ -82,3 +82,5 @@ C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.WebFormsUO\obj\Debug
 C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.WebFormsUO\bin\Debug\FluentValidation.dll
 C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.WebFormsUO\bin\Debug\MeetingReminder.Business.dll.config
 C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.WebFormsUO\bin\Debug\FluentValidation.xml
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.WebFormsUO\bin\Debug\Ninject.dll
+C:\Users\ahmet\source\repos\MeetingReminder\MeetingReminder.WebFormsUO\bin\Debug\Ninject.xml

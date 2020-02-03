@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingReminder.Business", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingReminder.WebFormsUO", "MeetingReminder.WebFormsUO\MeetingReminder.WebFormsUO.csproj", "{85107A3D-30FD-432D-9400-A4C2B7B31D3C}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MeetingReminder.Setup", "MeetingReminder.Setup\MeetingReminder.Setup.vdproj", "{1A8E4F22-6336-47ED-946B-CD776C1F0380}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MeetingReminder.Setup", "MeetingReminder.Setup\MeetingReminder.Setup.vdproj", "{AFEE6AA3-55F3-40F5-9C75-173FC12349F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,8 +35,8 @@ Global
 		{85107A3D-30FD-432D-9400-A4C2B7B31D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85107A3D-30FD-432D-9400-A4C2B7B31D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85107A3D-30FD-432D-9400-A4C2B7B31D3C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A8E4F22-6336-47ED-946B-CD776C1F0380}.Debug|Any CPU.ActiveCfg = Debug
-		{1A8E4F22-6336-47ED-946B-CD776C1F0380}.Release|Any CPU.ActiveCfg = Release
+		{AFEE6AA3-55F3-40F5-9C75-173FC12349F1}.Debug|Any CPU.ActiveCfg = Debug
+		{AFEE6AA3-55F3-40F5-9C75-173FC12349F1}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

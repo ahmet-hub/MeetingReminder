@@ -3,6 +3,7 @@ using System.Globalization;
 using System.Windows.Forms;
 using MeetingReminder.Business.Abstract;
 using MeetingReminder.Business.Concrete;
+using MeetingReminder.Business.Utilities;
 using MeetingReminder.DataAccess.Concrete.EntityFramework;
 using MeetingReminder.Entities;
 using Microsoft.Office.Interop.Excel;
@@ -11,8 +12,8 @@ namespace MeetingReminder.WebFormsUO
 {
     public partial class PersonDetails : Form
     {
-        private readonly IMeetingControlService _meetingControlService = new MeetingControlManager(new EfMeetingControlDal());
-        private readonly IMeetingService _meetingService = new MeetingManager(new EfMeetingDal());
+        private readonly IMeetingControlService _meetingControlService =NinjectInstanceFactory.GetInstance<IMeetingControlService>();
+        private readonly IMeetingService _meetingService = NinjectInstanceFactory.GetInstance<IMeetingService>();
         public PersonDetails()
         {
             InitializeComponent();
